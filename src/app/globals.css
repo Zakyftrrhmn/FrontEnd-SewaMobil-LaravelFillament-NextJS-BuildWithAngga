@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Poppins";
+  color: #060521;
+  background-color: #dae1e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@theme {
+  --color-alpina-grey: #828fa1;
+  --color-alpina-light-grey: #a3b0c2;
+  --color-alpina-blue: #362eed;
+  --color-alpina-orange: #ff9a3d;
+  --color-alpina-green: #07b704; /* Perbaikan typo "gren" menjadi "green" */
+  --color-alpina-black: #060521;
+}
