@@ -29,7 +29,6 @@ export const MainLayout = ({ children, navigationBottom = true }: Props) => {
 
   return (
     <div className="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-white">
-
       {children}
 
       {navigationBottom && (
@@ -59,7 +58,6 @@ export const MainLayout = ({ children, navigationBottom = true }: Props) => {
           </div>
         </nav>
       )}
-      
     </div>
   );
 };
